@@ -130,16 +130,13 @@ function agregar(idLibro){
         let libroCarrito = {id:libro.id, nombre:libro.nombre, precio: libro.precio, cantidad: 1, imgUrl: libro.imgUrl}
         carrito.push(libroCarrito)
         localStorage.setItem("carrito", JSON.stringify(carrito))
-
-        let indice = libros.indexOf(libro)
-        libros[indice].enCarrito = true
-
     }
     else{
+        
         let libroEnCarrito = carrito.find(elemento => elemento.id === idLibro)
         libroEnCarrito.cantidad += 1
     }
     
-    console.log(carrito)
+    alert("Producto agregado al carrito con exito!")
 }
 
