@@ -1,0 +1,205 @@
+
+html{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+body{
+    background-image: url("./img/patron1.jpg");
+    background-position: center center;
+    /* background-size: cover; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    height: 270px;
+    width: 100%;
+    background-image: url("./img/libros.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.nombre{
+    font-size: 100px;
+    background-color: rgb(184, 112, 252);
+    opacity: 80%;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+}
+
+.menu{
+    opacity: 85%;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.filtro{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(184, 112, 252);
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.principal{
+    margin: 30px;
+    background-color:rgb(232, 200, 250);
+    opacity: 80%;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.producto{
+    width: 200px;
+    height: 400px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    opacity: 90%;
+    transition: color 0.8s, background-color 0.8s;
+}
+
+.producto:hover {
+    background-color: rgb(184, 112, 252);
+    color: black; 
+}
+
+.productoSinStock{
+    width: 200px;
+    height: 400px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    opacity: 90%;
+    transition: color 0.8s, background-color 0.8s;
+}
+
+.productoSinStock:hover {
+    background-color: rgb(241, 107, 107);
+    color: black; 
+}
+
+.tarjeta{
+    margin-bottom: 10px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.home{
+    position: fixed;
+    right: 10px;
+    bottom: 300px;
+    z-index: 10;
+}
+
+.carrito{
+    position: fixed;
+    right: 20px;
+    bottom: 180px;
+    z-index: 9;
+}
+
+.botonCarrito{
+    border-radius: 50%;
+    border: none;
+}
+
+.productosCarrito{
+    display: flex;
+    flex-direction: column;
+}
+
+.productosCarrito h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.itemCarrito{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.descripcion{
+    margin-left: 20px;
+    font-size: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.descripcion h3, h4{
+    margin: 0;
+    padding: 10px;
+}
+
+.imgLibro{
+    width: 150px;
+    height: 200px;
+}
+
+.home-img{
+    width: 100px;
+    height: 100px;
+}
+
+.carrito-img{
+    width: 100px;
+    height: 100px;
+}
+
+.comprar{
+    position: relative;
+    top: 102px;
+    left: 65px;
+    width: 80px;
+    height: 50px;
+}
+
+
+
+.agregar{
+    position: relative;
+    top: 125px;
+    left: 65px;
+    width: 50px;
+    height: 50px;
+}
+
+.carrito-agregar{
+    position: relative;
+    top: 0;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.nombreProducto{
+    height: 50px;
+}
