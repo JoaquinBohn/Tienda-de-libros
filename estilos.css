@@ -7,7 +7,6 @@ html{
 body{
     background-image: url("./img/patron1.jpg");
     background-position: center center;
-    /* background-size: cover; */
 }
 
 header {
@@ -55,8 +54,8 @@ h3{
     height: 50px;
     background-color: rgb(184, 112, 252);
     font-size: 20px;
-    padding-left: 5px;
     font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
 }
 
 .principal{
@@ -119,7 +118,7 @@ h3{
 
 .carrito{
     position: fixed;
-    right: 20px;
+    right: 10px;
     bottom: 180px;
     z-index: 9;
 }
@@ -127,11 +126,13 @@ h3{
 .botonCarrito{
     border-radius: 50%;
     border: none;
+    cursor: pointer;
 }
 
 .productosCarrito{
     display: flex;
     flex-direction: column;
+    justify-content: first baseline;
 }
 
 .productosCarrito h2{
@@ -140,7 +141,7 @@ h3{
 }
 
 .itemCarrito{
-    width: 300px;
+    width: 500px;
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -150,8 +151,18 @@ h3{
     margin-left: 20px;
     font-size: 20px;
     height: 100px;
+    width: 200px;
     display: flex;
     flex-direction: column;
+}
+
+.botones{
+    margin-left: 20px;
+    font-size: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .descripcion h3, h4{
@@ -174,20 +185,13 @@ h3{
     height: 100px;
 }
 
-.comprar{
-    position: relative;
-    top: 95px;
-    left: 65px;
-    width: 80px;
-    height: 50px;
-}
-
 .agregar{
     position: relative;
     top: 118px;
-    left: 65px;
+    left: 150px;
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
 .carrito-agregar{
@@ -200,4 +204,171 @@ h3{
 
 .nombreProducto{
     height: 50px;
+}
+
+.comprar, .quitar{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.vaciar{
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.vaciarCarrito{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 320px){
+    header{
+        height: 150px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    .nombre{
+        font-size: 50px;
+    }
+    
+    .titulo{
+        font-size: 20px;
+    }
+
+    .filtro{
+        text-align: start;
+        width: 68px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .filtros{
+        justify-content: flex-start;
+    }
+
+    .principal{
+        margin: 15px;
+    }
+
+    .home-img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .carrito-img{
+        width: 30px;
+        height: 35px;
+    }
+
+    .carrito{
+        position: fixed;
+        right: 5px;
+        bottom: 260px;
+    }
+
+    .producto{
+        width: 100px;
+        height: 200px;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    .productoSinStock{
+        width: 100px;
+        height: 200px;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    .agregar{
+        position: relative;
+        top: 8px;
+        left: 60px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .carrito-agregar{
+        position: relative;
+        top: -3px;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .productosCarrito h2{
+        font-size: 20px;
+    }
+    
+    .itemCarrito{
+        width: 200px;
+        height: 180px;
+        padding: 5px;
+    }
+    
+    .descripcion{
+        margin-left: 10px;
+        font-size: 12px;
+        height: 100px;
+        width: 150px;
+    }
+
+    .descripcion h3{
+        width: 50px;
+    }
+    
+    .botones{
+        margin-left: 10px;
+        font-size: 15px;
+        height: 100px;
+        flex-direction: column;
+    }
+
+    .imgLibro{
+        width: 100px;
+        height: 170px;
+    }
+
+    .comprar, .quitar{
+        width: 70px;
+        height: 20px;
+        cursor: pointer;
+    }
+    
+    .vaciar{
+        width: 80px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 600px){
+    .home-img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .carrito-img{
+        width: 50px;
+        height: 55px;
+    }
+
+    .home{
+        position: fixed;
+        right: 10px;
+        bottom: 150px;
+    }
+    
+    .carrito{
+        position: fixed;
+        right: 5px;
+        bottom: 90px;
+    }
 }
