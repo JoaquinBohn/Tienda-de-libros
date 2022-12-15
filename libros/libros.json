@@ -1,0 +1,19 @@
+[
+    {"id":0, "nombre":"el corazon delator", "categoria":"cuentos", "precio": 1200, "stock": 10, "imgUrl": "./img/corazon.jpg"}, 
+    {"id":1, "nombre":"sapo pepe", "categoria":"infantiles", "precio": 1700, "stock": 37, "imgUrl": "./img/sapo.jpg"}, 
+    {"id":2, "nombre":"1984", "categoria":"novelas", "precio": 2500, "stock": 21, "imgUrl": "./img/1984.jpg"}, 
+    {"id":3, "nombre":"el proceso", "categoria":"novelas", "precio": 1800, "stock": 9, "imgUrl": "./img/proceso.jpg"}, 
+    {"id":4, "nombre":"quimica 2", "categoria":"academicos", "precio": 1500, "stock": 25, "imgUrl": "./img/quimica.jpg"}, 
+    {"id":5, "nombre":"cien años de soledad", "categoria":"novelas", "precio": 2755, "stock": 24, "imgUrl": "./img/cien.jpg"}, 
+    {"id":6, "nombre":"el principito", "categoria":"cuentos", "precio": 800, "stock": 33, "imgUrl": "./img/principito.jpg"}, 
+    {"id":7, "nombre":"alicia en el pais de las maravillas", "categoria":"cuentos", "precio": 1250, "stock": 7, "imgUrl": "./img/alicia.jpg"}, 
+    {"id":8, "nombre":"historia del siglo xx", "categoria":"academicos", "precio": 2189, "stock": 11, "imgUrl": "./img/historia.jpg"}, 
+    {"id":9, "nombre":"la sombra sobre innsmouth", "categoria":"cuentos", "precio": 850, "stock": 19, "imgUrl": "./img/sombra.jpg"}, 
+    {"id":10, "nombre":"la oruga muy hambrienta", "categoria":"infantiles", "precio": 1100, "stock": 1, "imgUrl": "./img/oruga.jpg"}, 
+    {"id":11, "nombre":"demian", "categoria":"novelas", "precio": 1300, "stock": 12, "imgUrl": "./img/demian.jpg"}, 
+    {"id":12, "nombre":"rebelion en la granja", "categoria":"novelas", "precio": 1700, "stock": 26, "imgUrl": "./img/rebelion.jpg"}, 
+    {"id":13, "nombre":"mujercitas", "categoria":"infantiles", "precio": 940, "stock": 10, "imgUrl": "./img/mujercitas.jpg"}, 
+    {"id":14, "nombre":"mecanica clasica", "categoria":"academicos", "precio": 3100, "stock": 8, "imgUrl": "./img/mecanica.jpg"}, 
+    {"id":15, "nombre":"el pozo y el pendulo", "categoria":"cuentos", "precio": 1530, "stock": 17, "imgUrl": "./img/pozo.jpg"}, 
+    {"id":16, "nombre":"luna de pluton", "categoria":"infantiles", "precio": 50, "stock": 100, "imgUrl": "./img/luna.jpg"}
+]
